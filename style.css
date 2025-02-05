@@ -1,0 +1,120 @@
+li a{
+    text-decoration: none;
+    font-size: larger;
+    color: white;
+}
+li{
+    padding: 2px;
+    padding-left: 16px;
+    height: 38px;
+}
+li:hover{
+    background-color: #38373748;
+}
+#a{
+    text-shadow: 1px 1px 3px;
+}
+header{
+    height: 500px;
+}
+.c-1{
+    height: 302px;
+    width: 700px;
+}
+#input-container{
+    width: 700px;
+}
+#speed{
+    font-size: calc(1.3rem + 0.6vw);
+}
+#btn-container{
+    height: 55px;
+}
+.f{
+    height: 280px;
+    padding-top: 20px;
+}
+@media screen and (max-width: 635px) {
+    #container{
+        width: 500px;
+    }    
+    #btn-container{
+        width: 500px;
+    }
+    #input-container{
+        width: 500px;
+    }
+    .h{
+        font-size: larger;
+    }
+    .f{
+        height: 230px;
+    }
+}
+@media screen and (max-width: 550px) {
+    #container{
+        width: 400px;
+    }    
+    #btn-container{
+        width: 400px;
+    }
+    #input-container{
+        width: 400px;
+    }
+    #speed{
+        font-size: 25px;
+        padding: 0%;
+        padding-left: 10px;
+    }
+    .h{
+        font-size: 16px;
+    }
+}
+@media screen and (max-width: 420px) {
+    #container{
+        width: 350px;
+    }    
+    #btn-container{
+        width: 350px;
+    }
+    .btn{
+        font-size: small;
+    }
+    #input-container{
+        width: 350px;
+    }
+    #speed{
+        font-size: 23px;
+    }
+    .f{
+        height: 230px;
+        padding-top: 10px;
+    }
+}
+@media screen and (max-width: 370px) {
+    #container{
+        width: 300px;
+        height: 253px;
+    }    
+    #btn-container{
+        width: 300px;
+        height: 45px;
+        padding-right: 15px;
+        padding-left: 5px;
+    }
+    .btn{
+        padding: 0%;
+    }
+    #input-container{
+        width: 300px;
+    }
+    #speed{
+        font-size: 20px;
+    }
+    .h{
+        font-size: 15px;
+    }
+    .f{
+        height: 230px;
+    }
+}

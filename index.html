@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sorting algorithm visualiser</title>
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="p-0">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-gradient bg-black">
+        <button class="navbar-toggler mx-3 border-2" data-bs-target="#navbar" data-bs-toggle="collapse" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <a href="#" class="navbar-brand mx-3 mx-lg-5" id="a">HASANAH</a>
+        <div class="collapse navbar-collapse w-75" id="navbar">
+            <ul class="navbar-nav m-0 p-lg-0 mx-lg-2 w-100 row-lg text-lg-center pt-3">
+                <li class="navbar-item col-lg-4 float-end">
+                    <a href="">Home</a>
+                </li>
+                <li class="navbar-item col-lg-4">
+                    <a href="#container">visualiser</a>
+                </li>
+                <li class="navbar-item col-lg-4">
+                    <a href="https://longdogechallenge.com/" target="_blank">nothing</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <br><br>
+    <div class="container p-0" id="input-container">
+        <label for="#input" class="form-label fs-4">number of objects:</label>
+        <div class="input-group row m-0">
+            <input type="number" id="input" class="form-control" min="10" max="250" placeholder="min is 10 max is 250">
+            <button class="btn btn-dark col-1" id="input-btn"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-send" viewBox="0 0 16 16">
+                <path d="M15.854.146a.5.5 0 0 1 .11.54l-5.819 14.547a.75.75 0 0 1-1.329.124l-3.178-4.995L.643 7.184a.75.75 0 0 1 .124-1.33L15.314.037a.5.5 0 0 1 .54.11ZM6.636 10.07l2.761 4.338L14.13 2.576zm6.787-8.201L1.591 6.602l4.339 2.76z"/>
+              </svg></button>
+        </div>
+    </div>
+    <br><br>
+    <div id="container" class="container border border-bold border-dark c-1 px-1 d-flex flex-direction-row align-items-end">
+        <div class="h-unit bg-primary"></div>
+        <div class="h-unit bg-primary"></div>
+        <div class="h-unit bg-primary"></div>
+        <div class="h-unit bg-primary"></div>
+        <div class="h-unit bg-primary"></div>
+        <div class="h-unit bg-primary"></div>
+        <div class="h-unit bg-primary"></div>
+        <div class="h-unit bg-primary"></div>
+        <div class="h-unit bg-primary"></div>
+        <div class="h-unit bg-primary"></div> 
+        <div class="h-unit bg-primary"></div>
+        <div class="h-unit bg-primary"></div>
+        <div class="h-unit bg-primary"></div>
+        <div class="h-unit bg-primary"></div>
+        <div class="h-unit bg-primary"></div>
+        <div class="h-unit bg-primary"></div>
+        <div class="h-unit bg-primary"></div>
+        <div class="h-unit bg-primary"></div>
+        <div class="h-unit bg-primary"></div> 
+        <div class="h-unit bg-primary"></div> 
+    </div>
+    <br><br>
+    <div class="container d-flex justify-content-between p-0 c-1 mb-5" id="btn-container">
+        <button class="btn btn-primary" style="width: 25%;" id="btn1">BUBBLE SORT</button>
+        <button class="btn btn-primary" style="width: 25%;" id="btn2">SELECTION SORT</button>
+        <button class="btn btn-primary" style="width: 25%;" id="btn3">INSERTION SORT</button>
+        <div class="input-group row" style="width: 15%;">
+            <input type="number" class="form-control" id="speed" value="50" title="the lower the faster">
+        </div>
+    </div>
+    <br>
+    <footer class="bg-gradient bg-dark f text-light px-3">
+        <br>
+        <h1 class="fw-semibold">-THINGS TO CLEAR:</h1>
+        <h3 class="fw-semibold mx-3 h">1.  On smaller screens the max is about 175 not 250.</h3>
+        <h3 class="fw-semibold mx-3 h">2.  The speed counter is in melliseconeds(swap per [speed]ms).</h3>
+        <h3 class="fw-semibold mx-3 h">3.  the sorting algorithms ised here are <a href="https://en.wikipedia.org/wiki/Bubble_sort" target="_blank" class="text-decoration-none">Bubble sort</a>, <a href="https://en.wikipedia.org/wiki/Selection_sort" target="_blank" class="text-decoration-none">Selection sort</a> and <a href="https://en.wikipedia.org/wiki/Insertion_sort" target="_blank" class="text-decoration-none">Insertion sort</a>.</h3>
+    </footer>
+    <script src="bootstrap.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
